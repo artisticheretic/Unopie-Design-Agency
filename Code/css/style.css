@@ -797,6 +797,7 @@ button{
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box1{
     display: inline-block;
     width: 30%;
+    margin: 0 0.5em;
 }
 
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box2{
@@ -924,7 +925,7 @@ button{
     position: relative;
     padding: 8em 0;
     padding-top: 0em;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     gap: 33em;
 }
 
