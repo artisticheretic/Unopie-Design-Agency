@@ -73,10 +73,9 @@ button{
 
 #nav{
     background-color: #8080800f;
-    display: flex;
 }
 
-#nav .container{
+#nav #nav-cont{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -114,7 +113,7 @@ button{
     background-color: #8080800f;
 }
 
-#sec-1 .container{
+#sec-1 #sec-1-cont{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -295,10 +294,10 @@ button{
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2:hover{
-    padding: 3em 2em;
     background-color: white;
-    transition: 0.2s ease;
+    transition: 0.5s ease;
     box-shadow: 0px 0px 20px 0px #00000035;
+    transform: scale(1.02);
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2 .sec-1-company-bottom-box2-cont .sec-1-company-bottom-box-img-back{
@@ -312,7 +311,7 @@ button{
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2:hover .sec-1-company-bottom-box2-cont .sec-1-company-bottom-box-img-back{
     background: #F2441D;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2 .sec-1-company-bottom-box2-cont img{
@@ -321,7 +320,7 @@ button{
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2:hover .sec-1-company-bottom-box2-cont img{
     filter: invert(1);
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2 .sec-1-company-bottom-box2-cont h4{
@@ -331,8 +330,8 @@ button{
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2:hover .sec-1-company-bottom-box2-cont h4{
-    font-size: 1.7em;
-    transition: 0.1s ease;
+    /* font-size: 1.7em;
+    transition: 0.1s ease; */
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2 .sec-1-company-bottom-box2-cont .all-para{
@@ -344,8 +343,8 @@ button{
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box2:hover .sec-1-company-bottom-box2-cont .all-para{
-    font-size: 0.8em;
-    transition: 0.1s ease;
+    /* font-size: 0.8em;
+    transition: 0.1s ease; */
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3{
@@ -353,11 +352,12 @@ button{
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3:hover{
-    padding: 3em 2em;
+    /* padding: 3em 2em; */
     background-color: white;
     border-radius: 8px;
-    transition: 0.2s ease;
+    transition: 0.5s ease;
     box-shadow: 0px 0px 20px 0px #00000035;
+    transform: scale(1.02);
 }
 
 
@@ -372,7 +372,7 @@ button{
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3:hover .sec-1-company-bottom-box3-cont .sec-1-company-bottom-box-img-back{
     background: #F2441D;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3 .sec-1-company-bottom-box3-cont img{
@@ -381,7 +381,7 @@ button{
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3:hover .sec-1-company-bottom-box3-cont img{
     filter: invert(1);
-    transition: 0.1s ease;
+    transition: 0.ss ease;
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3 .sec-1-company-bottom-box3-cont h4{
@@ -391,11 +391,11 @@ button{
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3:hover .sec-1-company-bottom-box3-cont h4{
-    padding-right: 4em;
+    /* padding-right: 4em;
     font-size: 1.6em;
     font-weight: 400;
     margin: 0;
-    transition: 0.2s ease;
+    transition: 0.2s ease; */
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3 .sec-1-company-bottom-box3-cont .all-para{
@@ -407,13 +407,13 @@ button{
 }
 
 #sec-1 #sec-1-company-bottom-box .sec-1-company-bottom-box3:hover .sec-1-company-bottom-box3-cont .all-para{
-    margin: 0;
+    /* margin: 0;
     margin-top: 1.5em;
     font-size: 0.8em;
     font-weight: 300;
     line-height: 2em;
     padding-right: 4.5em;
-    transition: 0.1s ease;
+    transition: 0.1s ease; */
 }
 
 #sec-1 #sec-1-company-bottom-box-button{
@@ -566,8 +566,9 @@ button{
 }
 
 #sec-2 #sec-2-top #sec-2-top-right .sec-2-top-right-btn:hover{
-    padding: 0.7em;
-    transition: 0.1s ease;
+    /* padding: 0.7em; */
+    transition: 0.2s ease;
+    transform: scale(1.05);
 } 
 
 #sec-2 #sec-2-top #sec-2-top-right .sec-2-top-right-btn .all-btn img{
@@ -587,9 +588,9 @@ button{
 }
 
 #sec-2 #sec-2-top #sec-2-top-right .sec-2-top-right-btn:hover .all-btn-txt{
-    font-size: 0.85em;
-    font-weight: 300;
-    transition: 0.1s ease;
+    /* font-size: 0.85em; */
+    /* font-weight: 300; */
+    /* transition: 0.1s ease; */
 }
 
 #sec-2 #sec-2-top #sec-2-top-right .sec-2-top-right-btn .all-btn{
@@ -656,8 +657,9 @@ button{
 }
 
 #sec-2 #sec-2-mid #sec-2-mid-left .sec-2-mid-left-btn:hover{
-    padding: 0.7em;
-    transition: 0.1s ease;
+    /* padding: 0.7em; */
+    transition: 0.2s ease;
+    transform: scale(1.05);
 } 
 
 #sec-2 #sec-2-mid #sec-2-mid-left .sec-2-mid-left-btn .all-btn img{
@@ -677,9 +679,9 @@ button{
 }
 
 #sec-2 #sec-2-mid #sec-2-mid-left .sec-2-mid-left-btn:hover .all-btn-txt{
-    font-size: 0.85em;
-    font-weight: 300;
-    transition: 0.1s ease;
+    /* font-size: 0.85em; */
+    /* font-weight: 300; */
+    /* transition: 0.1s ease; */
 }
 
 #sec-2 #sec-2-mid #sec-2-mid-left .sec-2-mid-left-btn .all-btn{
@@ -818,7 +820,7 @@ button{
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box1:hover .sec-2-bottom-box1-cont{
     transform: scale(1.05);
     box-shadow: 0px 0px 20px 0px #00000035;
-    transition: 0.2s ease;
+    transition: 0.5s ease;
 }
 
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box1 .sec-2-bottom-box1-cont .sec-2-bottom-box-cont-image-back{
@@ -827,11 +829,13 @@ button{
     border-radius: 200px;
     background-color: rgba(242, 68, 29, 0.176);
     margin-bottom: 1em;
+    padding: 0.5em;
+    padding-bottom: 0.1em;
 }
 
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box1:hover .sec-2-bottom-box1-cont .sec-2-bottom-box-cont-image-back{
     background: #F2441D;
-    transition: 0.1s ease;
+    transition: 0.2s ease;
 }
 
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box1 .sec-2-bottom-box1-cont img{
@@ -840,12 +844,13 @@ button{
     background: #6127121f;
     padding: 0.5em;
     filter: invert(22%) sepia(134%) saturate(3069%) hue-rotate(356deg) brightness(106%)contrast(104%);
+    transform: scale(1.35);
 }
 
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box1:hover .sec-2-bottom-box1-cont img{
     filter: invert(1);
     transition: 0.1s ease;
-    width: 1.4em;
+    /* width: 1.4em; */
 } 
 
 #sec-2 #sec-2-bottom #sec-2-bottom-box .sec-2-bottom-box1 .sec-2-bottom-box1-cont h4{
@@ -912,14 +917,14 @@ button{
     background-color: #8080800f;
 }
 
-#sec-3 .container{
+#sec-3 #sec-3-cont{
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     padding: 8em 0;
     padding-top: 0em;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     gap: 33em;
 }
 
@@ -970,9 +975,10 @@ button{
 }
 
 #sec-3 #sec-3-left .sec-3-left-btn:hover{
-    width: 41%;
-    padding: 0.7em;
-    transition: 0.1s ease;
+    /* width: 41%; */
+    /* padding: 0.7em; */
+    transform: scale(1.05);
+    transition: 0.2s ease;
 } 
 
 #sec-3 #sec-3-left .sec-3-left-btn .all-btn-txt{
@@ -1090,7 +1096,7 @@ button{
     text-shadow: 0px 0px 9px #0000001c;
 } 
 
-#sec-4 .container{
+#sec-4 #sec-4-cont{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1141,7 +1147,7 @@ button{
     background-color: #8080800f;
 }
 
-#sec-5 .container{
+#sec-5 #sec-5-cont{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
@@ -1398,7 +1404,7 @@ button{
             margin-top: 0.5em;
         }
     
-        #sec-3 .container{
+        #sec-3 #sec-3-cont{
             gap: 0;
         }
 
@@ -1455,7 +1461,7 @@ button{
             margin: 0;
         }
 
-        #sec-4 .container{
+        #sec-4 #sec-4-cont{
             padding: 5em 0;
         }
     
@@ -1474,7 +1480,7 @@ button{
             font-size: 0.7em;
         }
     
-        #sec-5 .container{
+        #sec-5 #sec-5-cont{
             gap: 10em;
             padding: 1em 0;
         }
@@ -1546,7 +1552,7 @@ button{
 
 @media only screen and (max-width:960px) {
 
-    #nav .container{
+    #nav #nav-cont{
         column-gap: 12em;
     }
 
@@ -1659,7 +1665,7 @@ button{
         margin: 0;
     }
 
-    #sec-4 .container{
+    #sec-4 #sec-4-cont{
         padding: 3em 0;
     }
 
@@ -1667,7 +1673,7 @@ button{
         padding: 0;
     }
 
-    #sec-5 .container{
+    #sec-5 #sec-5-cont{
         padding: 0.5em 0;
         gap: 8em;
     }
@@ -1728,7 +1734,7 @@ button{
 
 @media only screen and (max-width:780px) {
 
-    #nav .container{
+    #nav #nav-cont{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1896,7 +1902,7 @@ button{
         display: inline-block;
     }
 
-    #sec-3 .container{
+    #sec-3 #sec-3-cont{
         flex-direction: column;
         gap: 0;
         padding-bottom: 2em;
@@ -1955,7 +1961,7 @@ button{
         margin: 0;
     }
 
-    #sec-4 .container{
+    #sec-4 #sec-4-cont{
         padding: 3em 0;
     }
     
@@ -1967,7 +1973,7 @@ button{
         padding: 0;
     }
 
-    #sec-5 .container{
+    #sec-5 #sec-5-cont{
         gap: 3em;
         padding: 0;
     }
@@ -2043,7 +2049,7 @@ button{
         min-width: 450px;
     }
 
-    #nav .container{
+    #nav #nav-cont{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2053,7 +2059,7 @@ button{
         min-width: 450px;
     }
 
-    #sec-1 .container{
+    #sec-1 #sec-1-cont{
         max-width: 450px;
     }
     
@@ -2150,7 +2156,7 @@ button{
         min-width: 450px;
     }
 
-    #sec-5 .container{
+    #sec-5 #sec-5-cont{
         gap: 0;
         padding: 1em 0;
         display: flex;
