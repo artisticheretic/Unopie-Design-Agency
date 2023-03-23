@@ -874,6 +874,7 @@ button{
     background-color: #8080800f;
     padding-bottom: 11em;
     overflow: clip;
+    position: relative;
 }
 
 #sec-3 #sec-3-cont{
@@ -889,9 +890,9 @@ button{
     position: absolute;
     width: 12%;
     height: 15em;
-    background: #F2441D;
+    background: rgb(242, 68, 29);
     border-radius: 30px 0px 0px 30px;
-    bottom: -217em;
+    bottom: 3em;
     right: 0px;
 }
 
@@ -1345,8 +1346,7 @@ button{
     }
 
     #sec-3 .sec-3-sidebox-right{
-        bottom: -230.5em;
-        width: 15%;
+        bottom: 2em;
     }
     
 }
@@ -1700,8 +1700,7 @@ button{
     }
 
     #sec-3 .sec-3-sidebox-right{
-        bottom: -177em;
-        width: 17%;
+        bottom: 1em;
     }
     
 }
@@ -1889,8 +1888,7 @@ button{
     }
 
     #sec-3 .sec-3-sidebox-right{
-        bottom: -165em;
-        width: 11%;
+        
     }
 
 }
@@ -2197,8 +2195,7 @@ button{
     }
 
     #sec-3 .sec-3-sidebox-right{
-        bottom: -264em;
-        height: 10em;
+        
     }
 
 }
@@ -2375,7 +2372,9 @@ button{
     }
 
     #sec-3 .sec-3-sidebox-right{
-        display: none;
+        height: 9em;
+        bottom: 2em;
+
     }
 
 }
